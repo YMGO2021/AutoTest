@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test01" parallel="classes" thread-count="2">
+    <test name="test02">
+        <classes>
+            <class name="com.course.module.testng.parameter.ThreadTest01"></class>
+        </classes>
+    </test>
+    <test name="test03">
+        <classes>
+            <class name="com.course.module.testng.parameter.ThreadTest01"></class>
+        </classes>
+    </test>
+</suite>

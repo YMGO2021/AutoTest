@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-18T22:30:37</date>
+  <millis>1647613837049</millis>
+  <sequence>0</sequence>
+  <logger>org.apache.catalina.core.StandardService</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.StandardService</class>
+  <method>startInternal</method>
+  <thread>1</thread>
+  <message>Starting service [Tomcat]</message>
+</record>
+<record>
+  <date>2022-03-18T22:30:37</date>
+  <millis>1647613837052</millis>
+  <sequence>1</sequence>
+  <logger>org.apache.catalina.core.StandardEngine</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.StandardEngine</class>
+  <method>startInternal</method>
+  <thread>1</thread>
+  <message>Starting Servlet Engine: Apache Tomcat/8.5.29</message>
+</record>
+<record>
+  <date>2022-03-18T22:30:37</date>
+  <millis>1647613837067</millis>
+  <sequence>2</sequence>
+  <logger>org.apache.catalina.core.AprLifecycleListener</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.AprLifecycleListener</class>
+  <method>lifecycleEvent</method>
+  <thread>15</thread>
+  <message>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Master-jmeter-5.2.1\bin;D:\maven\apache-maven-3.8.4-bin\bin;D:\setup\node\;D:\setup\Git-2.22.0\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Fiddler;D:\setup\Fiddler;D:\android-sdk\tools;D:\android-sdk\platform-tools;D:\android-sdk\build-tools\25.0.0;;D:\idea\IntelliJ IDEA 2021.2.1\bin;;.]</message>
+</record>
+<record>
+  <date>2022-03-18T22:30:37</date>
+  <millis>1647613837161</millis>
+  <sequence>3</sequence>
+  <logger>org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.ApplicationContext</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Initializing Spring embedded WebApplicationContext</message>
+</record>
+<record>
+  <date>2022-03-18T22:31:06</date>
+  <millis>1647613866283</millis>
+  <sequence>4</sequence>
+  <logger>org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.ApplicationContext</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message>Initializing Spring FrameworkServlet 'dispatcherServlet'</message>
+</record>
+</log>

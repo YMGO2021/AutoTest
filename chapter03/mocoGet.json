@@ -1,0 +1,127 @@
+[
+  {
+    "description": "get带参数",
+    "request": {
+      "uri": "/demoget",
+      "method": "get",
+      "queries":{
+        "name": "zhangsan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "1234557777"
+    }
+  },
+  {
+    "description": "post示例",
+    "request": {
+      "uri": "/mocopost",
+      "method": "post"
+    },
+    "response": {
+      "text": "hello,world"
+    }
+  },
+  {
+    "description": "post带forms参数",
+    "request": {
+      "uri": "/postpara",
+      "method": "post",
+      "forms": {
+        "name": "zhangsan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "88888888888888"
+    }
+  },
+  {
+    "description": "get上加cookie",
+    "request": {
+      "uri": "/getcookie",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response":{
+      "text": "9999999哈哈哈哈哈哈哈哈哈"
+    }
+  },
+  {
+    "description": "post加cookie、json，返回json和status",
+    "request": {
+      "uri": "/testpost",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "zhangsan",
+        "age": "18"
+      }
+
+    },
+    "response": {
+      "status": "200",
+      "json": {
+        "name": "666",
+        "age": "22"
+      }
+    }
+  },
+  {
+    "description": "添加头信息",
+    "request": {
+      "uri": "/headpost",
+      "method": "post",
+      "headers": {
+        "Content-Type": "appliction/json"
+      },
+      "json": {
+        "name": "zhangsan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "name": "zhangsan",
+        "age": "99999"
+      }
+    }
+  },
+
+  {
+    "description": "测试重定向",
+    "request": {
+      "uri": "/rec",
+      "method": "get"
+    },
+    "redirectTo": "/rectest"
+  },
+  {
+    "description": "重定向去的路径",
+    "request": {
+      "uri": "/rectest",
+      "method": "get"
+    },
+    "response": {
+      "text": "999999"
+    }
+  },
+  {
+    "description": "模拟一个返回cookie的方法",
+    "request": {
+      "uri": "/cookiedemo",
+      "method": "get"
+    },
+    "response": {
+      "cookies":{
+        "login": "true1"
+      },
+      "text": "9999"
+    }
+  }
+]

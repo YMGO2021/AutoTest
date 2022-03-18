@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group">
+    <test name="class">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <classes >
+            <class name="com.course.module.testng.groups.GroupsClass1"></class>
+            <class name="com.course.module.testng.groups.GroupsClass2"></class>
+            <class name="com.course.module.testng.groups.GroupsClass3"></class>
+        </classes>
+    </test>
+    <test name="test01">
+        <groups>
+            <run>
+                <include name="client"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.module.testng.groups.GroupsMethod"></class>
+        </classes>
+    </test>
+</suite>

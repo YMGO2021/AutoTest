@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter01" />
+        <module name="chapter02" />
+        <module name="chapter09" />
+        <module name="chapter07" />
+        <module name="chapter08" />
+        <module name="chapter05" />
+        <module name="chapter06" />
+        <module name="chapter04" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter01" target="1.8" />
+      <module name="chapter02" target="1.8" />
+      <module name="chapter04" target="1.8" />
+      <module name="chapter05" target="1.8" />
+      <module name="chapter06" target="1.8" />
+      <module name="chapter07" target="1.8" />
+      <module name="chapter08" target="1.8" />
+      <module name="chapter09" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chapter05" options="-parameters" />
+      <module name="chapter06" options="-parameters" />
+      <module name="chapter07" options="-parameters" />
+      <module name="chapter08" options="-parameters" />
+      <module name="chapter09" options="-parameters -extdirs D:\workspace\muke\AutoTest\chapter09/lib" />
+    </option>
+  </component>
+</project>
