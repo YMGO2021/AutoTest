@@ -18,15 +18,16 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.7.1</version>
                 <configuration>
-                    <skipTests>true</skipTests>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>
-                            ./src/main/resources/testNG.xml
-                        </suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-            <!--testng打jar包运行的插件引入-->
+            <!--实际用Jenkins打包时不能加这个
+            <skipTests>true</skipTests>-->
+            <suiteXmlFiles>
+                <suiteXmlFile>
+                    ./src/main/resources/testNG.xml
+                </suiteXmlFile>
+            </suiteXmlFiles>
+        </configuration>
+    </plugin>
+    <!--testng打jar包运行的插件引入-->
         </plugins>
     </build>
     <dependencies>
