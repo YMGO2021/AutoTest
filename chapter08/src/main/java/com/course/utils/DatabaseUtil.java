@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.io.Reader;
 
 public class DatabaseUtil {
+//    public DatabaseUtil(){
+//        System.out.println("99999999");
+//    }
     public static SqlSession  getSession()throws IOException {
         //获取配置的资源文件
         Reader reader = Resources.getResourceAsReader("databaseConfig.xml");
